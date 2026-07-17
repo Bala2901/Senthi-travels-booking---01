@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senthil Travels</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./picture/bg logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="page1">
+        <div class="nav">
+            <div class="st">
+                <h2><span>Senthil</span>Travels</h2>
+            </div>
+            <div class="st-2" id="navMenu">
+                <div class="home">
+                    <a href="#home">Home</a>
+                </div>
+                <div class="destination">
+                    <a href="#destination">Destination</a>
+                </div>
+                <div class="service">
+                    <a href="#service">Service</a>
+                </div>
+                <div class="viewpackage">
+                    <a href="#viewpackage">View Package</a>
+                </div>
+                <div class="contactus">
+                    <a href="#contactus">Contact Us</a>
+                </div>
+                <div class="booknow" onclick="booknow()">
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="navicon" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="explorepage" id="home">
+            <div class="exploprediv">
+                <div class="trusted">
+                    <div class="truckicon">
+                        <p>🚐 Trusted Since 2010</p>
+                    </div>
+                </div>
+                <div class="exploreindia">
+                    <h1>Explore India With</h1>
+                    <h1><span class="senthiltravel">Senthil Travels</span></h1>
+                </div>
+                <div class="explore-p-tag">
+                    <p>Comfortable car tours, expert local drivers, and custom packages across Tamil Nadu & all india.
+                        Your journey, our passion.
+                    </p>
+                </div>
+                <div class="button">
+                    <button class="book" onclick="booknow()">Book Now</button>
+                    <button class="plan" onclick="viewratings()">View Ratings</button>
+                </div>
+            </div>
+            <div class="imagediv">
+
+            </div>
+        </div>
+    </div>
+    <!--------------page-2--------------->
+    <div class="page-2" id="destination">
+        <div class="populor">
+            <h1>Popular <span>Destination</span></h1>
+            <p>Handpicked tours from kumbakonam</p>
+        </div>
+        <div class="carddiv">
+            <div class="card card1">
+                <div class="cdimg">
+                    <img src="./picture/Kumbakonam-temples-768x432.jpg" alt="Kumbakonam Temples">
+                </div>
+                <div class="rsdiv">
+                    <div class="kum-div">
+                        <h2>Kumbakonam Temples</h2>
+                        <p>Explore the sacred temple town with a private car & guide.</p>
+                        <h3><i class="fa-solid fa-indian-rupee-sign"></i>5,500</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="cdimg">
+                    <img src="./picture/Pondicherry1.webp" alt="Pondicherry">
+                </div>
+                <div class="rsdiv">
+                    <div class="kum-div">
+                        <h2>Pondicherry</h2>
+                        <p>French colony, beaches & Auroville scenic coastal drive</p>
+                        <h3><i class="fa-solid fa-indian-rupee-sign"></i>5,500</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="cdimg">
+                    <img src="./picture/tanjavur temple" alt="Thanjavur">
+                </div>
+                <div class="rsdiv">
+                    <div class="kum-div">
+                        <h2>Thanjavur & Trichy</h2>
+                        <p>Brihadeeswara Temple, Rockfort & heritage sites.</p>
+                        <h3><i class="fa-solid fa-indian-rupee-sign"></i>3,500</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------->
+        <div class="carddiv2">
+            <div class="card card3">
+                <div class="cdimg">
+                    <img src="./picture/rameswaram" alt="Rameswaram">
+                </div>
+                <div class="rsdiv">
+                    <div class="kum-div">
+                        <h2>Rameswaram</h2>
+                        <p>Rameswaram is a sacred island town renowned for its ancient temples, pristine beaches, and spiritual heritage.</p>
+                        <h3><i class="fa-solid fa-indian-rupee-sign"></i>8,200</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card3">
+                <div class="cdimg">
+                    <img src="./picture/coimbatore" alt="Coimbatore">
+                </div>
+                <div class="rsdiv">
+                    <div class="kum-div">
+                        <h2>Coimbatore</h2>
+                        <p>Coimbatore is a vibrant city known as the Manchester of South India, blending industry with natural beauty.</p>
+                        <h3><i class="fa-solid fa-indian-rupee-sign"></i>9,200</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card3">
+                <div class="cdimg">
+                    <img src="./picture/ooty" alt="Ooty">
+                </div>
+                <div class="rsdiv">
+                    <div class="kum-div">
+                        <h2>Ooty</h2>
+                        <p>Ooty is a charming hill station known for its misty mountains, lush tea gardens, and pleasant climate.</p>
+                        <h3><i class="fa-solid fa-indian-rupee-sign"></i>12,000</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="carddiv2">
+            <div class="card card3">
+                <div class="cdimg">
+                    <img src="./picture/tripati" alt="Tirupathi">
+                </div>
+                <div class="rsdiv">
+                    <div class="kum-div">
+                        <h2>Tirupathi</h2>
+                        <p>Tirupati is one of India's most sacred pilgrimage destinations, home to the renowned Lord Venkateswara Temple.</p>
+                        <h3><i class="fa-solid fa-indian-rupee-sign"></i>20,000</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card3">
+                <div class="cdimg">
+                    <img src="./picture/kerala" alt="Kerala">
+                </div>
+                <div class="rsdiv">
+                    <div class="kum-div">
+                        <h2>Kerala</h2>
+                        <p>Kerala is God's Own Country, renowned for its serene backwaters, lush greenery, and tranquil beaches.</p>
+                        <h3><i class="fa-solid fa-indian-rupee-sign"></i>15,000</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card3">
+                <div class="cdimg">
+                    <img src="./picture/thiruvalluvar-statue" alt="Kanyakumari">
+                </div>
+                <div class="rsdiv">
+                    <div class="kum-div">
+                        <h2>Kanyakumari</h2>
+                        <p>Kanyakumari is India's southernmost destination, famous for its spectacular sunrise and sunset views.</p>
+                        <h3><i class="fa-solid fa-indian-rupee-sign"></i>12,000</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------page-3--------------->
+    <div class="page-3" id="service">
+        <div class="ourservice">
+            <h1>Our <span>Services</span></h1>
+            <p>Travel with comfort and trust</p>
+        </div>
+        <div class="carrental-div">
+            <div class="car cardiv-1">
+                <img src="./picture/Innova" alt="innova">
+                <h2>Car Rental</h2>
+                <p>Sedan, SUV, & Tempo Traveller <br> with drivers</p>
+            </div>
+            <div class="car cardiv-2">
+                <img src="./picture/location-pin-with-map_78370-9610.avif" alt="map">
+                <h2>Custom Tours</h2>
+                <p>Itineraries built around <br> your interests</p>
+            </div>
+            <div class="car cardiv-3">
+                <img src="./picture/hotel icon" alt="Hotel">
+                <h2>Hotel Booking</h2>
+                <p>Budget to luxury stay across <br>india</p>
+            </div>
+            <div class="car cardiv-4">
+                <img src="./picture/all india" alt="all india">
+                <h2>All India Packages</h2>
+                <p>Golden Triangle, Kerala, <br>Rajasthan & more</p>
+            </div>
+        </div>
+    </div>
+    <!--------Our Package page-------->
+    <div class="page4" id="viewpackage">
+        <div class="ourpackage">
+            <h1>Our <span>Packages</span></h1>
+            <p>Transparent Pricing -- No Hidden Charges</p>
+        </div>
+
+        <!-- Row 1: 200 KM Packages -->
+        <div class="viewpackagepagediv">
+            <div class="tariff">
+                <div class="tariffonlydiv">
+                    <h1>Tariff Only A/C</h1>
+                    <p>200 KM BASE & <span>EXTRA PER KM</span></p>
+                </div>
+                <div class="tariffonlytable">
+                    <table>
+                        <tr>
+                            <th>4+1</th>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 3,500</span> / 200 km</td>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 13</span> / km</td>
+                        </tr>
+                        <tr>
+                            <th>7+1 Innova</th>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 5,500 </span>/ 200 km</td>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 18</span> / km</td>
+                        </tr>
+                        <tr>
+                            <th>7+1 Crysta</th>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 6,000 </span> / 200 km</td>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 18 </span>/ km</td>
+                        </tr>
+                        <tr>
+                            <th>14+1 Tempo</th>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 7,000</span> / 200 km</td>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 24 </span>/ km</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="navigraga">
+                <div class="navigragadiv">
+                    <h1>Navigraga Package</h1>
+                    <p>200 KM BASE & <span>EXTRA PER DAY</span></p>
+                </div>
+                <div class="navigragadivtable">
+                    <table>
+                        <tr>
+                            <th>4+1</th>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 5,500</span> / 200 km</td>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 500</span> / Day</td>
+                        </tr>
+                        <tr>
+                            <th>7+1 Innova / Crysta</th>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 8,500 </span>/ 200 km</td>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 500</span> / Day</td>
+                        </tr>
+                        <tr>
+                            <th>14+1 Tempo</th>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 11,000 </span> / 200 km</td>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 500 </span>/ Day</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2: 100 KM Package -->
+        <div class="viewpackagepagediv">
+            <div class="tariff">
+                <div class="tariffonlydiv">
+                    <h1>Tariff Only A/C</h1>
+                    <p>100 KM BASE & <span>EXTRA PER KM</span></p>
+                </div>
+                <div class="tariffonlytable">
+                    <table>
+                        <tr>
+                            <th>4+1</th>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 1,750</span> / 100 km</td>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 13</span> / km</td>
+                        </tr>
+                        <tr>
+                            <th>7+1 Innova</th>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 2,750 </span>/ 100 km</td>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 18</span> / km</td>
+                        </tr>
+                        <tr>
+                            <th>7+1 Crysta</th>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 3,000 </span> / 100 km</td>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 18 </span>/ km</td>
+                        </tr>
+                        <tr>
+                            <th>14+1 Tempo</th>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 3,500</span> / 100 km</td>
+                            <td><span><i class="fa-solid fa-indian-rupee-sign"></i> 24 </span>/ km</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Driver Bata Section -->
+        <div class="driverbatadiv">
+            <div class="drivbata drivbata-1">
+                <div class="drivbatalft">
+                    <div class="drivericon">
+                        <i class="fa-solid fa-user-tie lasti driver"></i> Driver Bata <span> <i class="fa-solid fa-indian-rupee-sign"></i> 700 </span> / day (On Km base)
+                    </div>
+                    <div class="drivericon">
+                        <i class="fa-solid fa-octagon lasti halt"></i> Halt <span> <i class="fa-solid fa-indian-rupee-sign"></i> 1,000 </span> / day
+                    </div>
+                </div>
+                <div class="drivbatalft">
+                    <div class="drivericon">
+                        <i class="fa-solid fa-trophy lasti cup"></i> Experience Driver Only
+                    </div>
+                    <div class="drivericon">
+                        <i class="fa-regular fa-alarm-clock lasti clock"></i> On Time Departure
+                    </div>
+                </div>
+            </div>
+            <div class="drivbata drivbata-2">
+                <div class="drivbatalft">
+                    <div class="drivericon">
+                        <i class="fa-solid fa-mound lasti hill"></i> Hill Diesel <span> <i class="fa-solid fa-indian-rupee-sign"></i> 1,000 </span> Extra
+                    </div>
+                    <div class="drivericon">
+                        <i class="fa-solid fa-circle-check lasti tick"></i> All Luxury & Premium Vehicles
+                    </div>
+                </div>
+                <div class="drivbatalft">
+                    <div class="drivericon">
+                        <i class="fa-solid fa-plane-up lasti air"></i> Airport Pickup / Drop at low Cost
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="Page5" id="contactus">
+        <div class="fcarlogo">
+            <img src="./picture/bg logo.png" alt="logo">
+        </div>
+        <div class="f-ourjourney">
+            <div class="fyjor">
+                <h1>Your Journey, Our <span style="color: orange;">Responsibility</span></h1>
+                <p>Senthil Travels offers safe, reliable and Comfortable travel services with experienced drivers and well-maintained vehicles.</p>
+            </div>
+            <div class="fyjor">
+                <h1 style="color: orange;">Get in Touch</h1>
+                <div class="wp">
+                    <i class="fa-brands fa-whatsapp"></i> 94893 94802 - 94434 07313
+                </div>
+                <div class="loc">
+                    <i class="fa-solid fa-location-dot"></i> 4 /1264, Dabeer Street, Kumbakonam - 612 001
+                </div>
+                <div class="mail">
+                    <i class="fa-solid fa-envelope"></i> senthiltravels@gmail.com
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="flastdiv">
+            <div class="fot-our-ser fot">
+                <div class="fot-heading">
+                    <i class="fa-solid fa-location-crosshairs lc"></i> <b class="os">Our Services</b>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-solid fa-circle-arrow-right ar"></i> <span>Local Taxi Services</span>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-solid fa-circle-arrow-right ar"></i> <span>Outstation Trip</span>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-solid fa-circle-arrow-right ar"></i> <span>Airport Transfers</span>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-solid fa-circle-arrow-right ar"></i> <span>Tour Packages</span>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-solid fa-circle-arrow-right ar"></i> <span>Corporate Travel</span>
+                </div>
+            </div>
+            <div class="fot-why-cho fot">
+                <div class="fot-heading">
+                    <i class="fa-solid fa-car lc"></i> <b class="os">Why Choose Us ?</b>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-regular fa-circle-check ar"></i> <span>Experienced Drivers</span>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-regular fa-circle-check ar"></i> <span>Well Maintained Vehicles</span>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-regular fa-circle-check ar"></i> <span>On Time Departure</span>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-regular fa-circle-check ar"></i> <span>Affordable Pricing</span>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-regular fa-circle-check ar"></i> <span>24/7 Customer Support</span>
+                </div>
+            </div>
+            <div class="fot-qui-link fot">
+                <div class="fot-heading">
+                    <i class="fa-solid fa-link lc"></i> <b class="os">Quick Links</b>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-solid fa-link ar"></i> <a href="#home">Home</a>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-solid fa-link ar"></i> <a href="#destination">Destination</a>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-solid fa-link ar"></i> <a href="#service">Service</a>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-solid fa-link ar"></i> <a href="#viewpackage">View Package</a>
+                </div>
+                <div class="fot-item">
+                    <i class="fa-solid fa-link ar"></i> <a href="#contactus">Contact Us</a>
+                </div>
+            </div>
+            <div class="fot-wer-avb fot">
+                <div class="fot-heading">
+                    <i class="fa-solid fa-headset lc"></i> <b class="os">We're Available 24/7</b>
+                </div>
+                <div class="fot-sqr-div">
+                    <div class="phonediv-1">
+                        <div class="phoneiconidv">
+                            <i class="fa-solid fa-phone phicon"></i>
+                        </div>
+                        <div class="forenqdiv">
+                            <b>For Booking & Enquiries</b><br>
+                            <span>94893 94802 | 94434 07313</span>
+                        </div>
+                    </div>
+                    <div class="phonediv-2">
+                        <b>Travel with Trust & Comfort</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="footerladtdiv">
+            <div class="foot-1 footl">
+                <i class="fa-solid fa-truck-front"></i> <span>All Luxury and Premium Vehicles. Experience Driver Only.</span>
+            </div>
+            <div class="foot-2 footl">
+                <i class="fa-solid fa-plane"></i> <span> Airport Pickup / Drop At Low Cost.</span>
+            </div>
+            <div class="foot-3 footl">
+                <span>&copy; Senthil Travels. All Rights Reserved.</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
