@@ -9,7 +9,7 @@ function viewratings() {
 }
 
 function booknow() {
-    window.location.href = "https://docs.google.com/forms/d/1VQw9lmwZ88gSRz_J0gtIjyIb5x9os5lpQ9XS6OnF2n0/preview";
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSd257PTdfsYPXhgTipQM7ykcdRbGkbVGom6dNoOncP3F7PUlg/viewform?usp=publish-editor";
 }
 
 // ===== MOBILE MENU TOGGLE =====
